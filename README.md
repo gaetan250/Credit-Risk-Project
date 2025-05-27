@@ -36,7 +36,7 @@ Ce projet vise à modéliser et projeter un **Credit Conversion Factor (CCF)** s
 
 ```
 
-Afin d'installer les différentes dépendances vous pouvez configurer un environnement virtuelle puis exécuter cette commande:
+Afin d'installer les différentes dépendances vous pouvez configurer un environnement virtuel puis exécuter cette commande :
 ```bash
 pip install -r requirements.txt
 ```
