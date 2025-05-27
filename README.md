@@ -31,7 +31,7 @@ Ce projet vise à modéliser et projeter un **Credit Conversion Factor (CCF)** s
 📄 processing.py        # Préparation, transformations des données
 📄 prediction.py        # Génération des prévisions CCF
 📄 main.ipynb           # Pipeline principal (à exécuter)
-📄 final_To.ipynb       # Exploration, tests et résultats
+📄 NotebookComplet.ipynb       # Exploration, tests et résultats
 📄 requirements.txt     # Dépendances Python nécessaires
 
 ```
