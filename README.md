@@ -1,7 +1,7 @@
 # Projet CCF Forward Looking – IFRS9  
 *Université Paris 1 - Master MOSEF 2025*
 
-## Objectif
+## Objectif  
 Ce projet vise à modéliser et projeter un **Credit Conversion Factor (CCF)** sensible à la conjoncture économique (approche *Forward Looking*) pour estimer plus finement l’**EAD IFRS9**, à l’instar de la PD et LGD.
 
 ## Méthodologie
@@ -30,8 +30,20 @@ Ce projet vise à modéliser et projeter un **Credit Conversion Factor (CCF)** s
 📄 model.py             # Modèles économétriques segmentés
 📄 processing.py        # Préparation, transformations des données
 📄 prediction.py        # Génération des prévisions CCF
-📄 main.ipynb / .py     # Pipeline principal (à exécuter)
-📄 explo.ipynb          # Analyse exploratoire
-📄 final_To.ipynb       # Synthèse et résolution finale
+📄 main.ipynb           # Pipeline principal (à exécuter)
+📄 final_To.ipynb       # Exploration, tests et résultats
+📄 requirements.txt     # Dépendances Python nécessaires
+
 ```
+
+Afin d'installer les différentes dépendances vous pouvez configurer un environnement virtuelle puis exécuter cette commande:
+```bash
+pip install -r requirements.txt
+```
+
+## 👥 Auteurs
+- [Emma Eberle](https://github.com/emmaebrl)
+- [Morgan Jowitt](https://github.com/morganjowitt)
+- [Gaétan Dumas](https://github.com/gaetan250)
+- [Pierre Liberge](https://github.com/ton1rvr)
 
