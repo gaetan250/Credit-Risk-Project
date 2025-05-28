@@ -35,6 +35,26 @@ Ce projet vise à modéliser et projeter un **Credit Conversion Factor (CCF)** s
 📄 requirements.txt         # Dépendances Python nécessaires
 
 ```
+## 📁 Données confidentielles
+
+⚠️ Pour des raisons de confidentialité, les données utilisées dans ce projet ne sont **pas incluses** dans le dépôt GitHub.
+
+Vous devez donc **créer manuellement** l’arborescence de dossiers attendue, notamment un dossier `data/` pour stocker les fichiers sources, ainsi qu’un sous-dossier `macrovariables/` dédié aux séries économiques utilisées pour la projection.
+
+``` bash
+data/
+├── Données_CCF_PAR_SEGMENT.csv
+├── Données_CCF_SERIE_GLOBALE_VF.csv
+└── macrovariables/
+└── historique_macro_variables_projet_CCF_FowardLooking_IFRS9.xlsx
+
+```
+
+Placez les fichiers de données nécessaires dans ces dossiers selon la structure prévue par le code. L’ensemble du pipeline repose sur cette architecture pour charger et traiter les données correctement.
+
+Merci de respecter cette organisation pour garantir le bon fonctionnement des scripts.
+
+
 
 Afin d'installer les différentes dépendances vous pouvez configurer un environnement virtuel puis exécuter cette commande :
 ```bash
