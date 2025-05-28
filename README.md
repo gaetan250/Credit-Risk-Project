@@ -26,13 +26,13 @@ Ce projet vise à modéliser et projeter un **Credit Conversion Factor (CCF)** s
 ## Structure du projet
 
 ```bash
-📁 data/                 # Données sources et séries macroéconomiques
-📄 model.py             # Modèles économétriques segmentés
-📄 processing.py        # Préparation, transformations des données
-📄 prediction.py        # Génération des prévisions CCF
-📄 main.ipynb           # Pipeline principal (à exécuter)
-📄 NotebookComplet.ipynb       # Exploration, tests et résultats
-📄 requirements.txt     # Dépendances Python nécessaires
+📁 data/                    # Données sources et séries macroéconomiques
+📄 model.py                 # Modèles économétriques segmentés
+📄 processing.py            # Préparation, transformations des données
+📄 prediction.py            # Génération des prévisions CCF
+📄 main.ipynb               # Pipeline principal (à exécuter)
+📄 NotebookComplet.ipynb    # Exploration, tests et résultats
+📄 requirements.txt         # Dépendances Python nécessaires
 
 ```
 
