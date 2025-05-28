@@ -55,7 +55,7 @@ Placez les fichiers de données nécessaires dans ces dossiers selon la structur
 Merci de respecter cette organisation pour garantir le bon fonctionnement des scripts.
 
 
-
+## Dépendances
 Afin d'installer les différentes dépendances vous pouvez configurer un environnement virtuel puis exécuter cette commande :
 ```bash
 pip install -r requirements.txt
